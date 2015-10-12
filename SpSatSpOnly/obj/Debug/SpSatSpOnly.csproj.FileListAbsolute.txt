@@ -1,0 +1,3 @@
+C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatSpOnly\bin\Debug\SpSatSpOnly.pdb
+C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatSpOnly\obj\Debug\SpSatSpOnly.dll
+C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatSpOnly\obj\Debug\SpSatSpOnly.pdb

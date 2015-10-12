@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="2b2576c3-207b-4a89-92e3-3ac91c094f6f" 
+        solutionId="2b2576c3-207b-4a89-92e3-3ac91c094f6f" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SpSatER"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="c061f255-4adc-4a58-9d49-5503b90002cf" />
+  </features>
+</package>

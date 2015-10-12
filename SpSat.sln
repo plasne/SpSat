@@ -1,0 +1,107 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.23107.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatUiDemo", "SpSatUiDemo\SpSatUiDemo.csproj", "{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatSpOnly", "SpSatSpOnly\SpSatSpOnly.csproj", "{07110436-C636-4B5E-9EFB-393187B1F6E7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatLanding", "SpSatLanding\SpSatLanding.csproj", "{EBD07166-7BC1-4505-8735-8220C7FD1443}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatMultiTier", "SpSatMultiTier\SpSatMultiTier.csproj", "{853F3DA6-71AF-47E8-B35B-DC816244FAB5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatJobs", "SpSatJobs\SpSatJobs.csproj", "{9F23D1C9-088A-4B83-BAF8-AAC42D9DBEC7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatER", "SpSatER\SpSatER.csproj", "{28DCBD55-625B-407B-B4AE-B90A040F7921}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatWeb", "SpSatWeb\SpSatWeb.csproj", "{B528A924-3C75-4B7C-8CDB-5A24772E29B7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SpSatWebJob", "SpSatWebJob\SpSatWebJob.csproj", "{545D78D6-85D2-4CC2-9A09-6D01504098AA}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DC590F33-548C-4DEE-B8C2-A7ECA58B51AE}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{07110436-C636-4B5E-9EFB-393187B1F6E7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{07110436-C636-4B5E-9EFB-393187B1F6E7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{07110436-C636-4B5E-9EFB-393187B1F6E7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{07110436-C636-4B5E-9EFB-393187B1F6E7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{07110436-C636-4B5E-9EFB-393187B1F6E7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{07110436-C636-4B5E-9EFB-393187B1F6E7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{EBD07166-7BC1-4505-8735-8220C7FD1443}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EBD07166-7BC1-4505-8735-8220C7FD1443}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EBD07166-7BC1-4505-8735-8220C7FD1443}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{EBD07166-7BC1-4505-8735-8220C7FD1443}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EBD07166-7BC1-4505-8735-8220C7FD1443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EBD07166-7BC1-4505-8735-8220C7FD1443}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{853F3DA6-71AF-47E8-B35B-DC816244FAB5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{853F3DA6-71AF-47E8-B35B-DC816244FAB5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{853F3DA6-71AF-47E8-B35B-DC816244FAB5}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{853F3DA6-71AF-47E8-B35B-DC816244FAB5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{853F3DA6-71AF-47E8-B35B-DC816244FAB5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{853F3DA6-71AF-47E8-B35B-DC816244FAB5}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{9F23D1C9-088A-4B83-BAF8-AAC42D9DBEC7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F23D1C9-088A-4B83-BAF8-AAC42D9DBEC7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F23D1C9-088A-4B83-BAF8-AAC42D9DBEC7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F23D1C9-088A-4B83-BAF8-AAC42D9DBEC7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DCBD55-625B-407B-B4AE-B90A040F7921}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{28DCBD55-625B-407B-B4AE-B90A040F7921}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{28DCBD55-625B-407B-B4AE-B90A040F7921}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{28DCBD55-625B-407B-B4AE-B90A040F7921}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{28DCBD55-625B-407B-B4AE-B90A040F7921}.Release|Any CPU.Build.0 = Release|Any CPU
+		{28DCBD55-625B-407B-B4AE-B90A040F7921}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{B528A924-3C75-4B7C-8CDB-5A24772E29B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B528A924-3C75-4B7C-8CDB-5A24772E29B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B528A924-3C75-4B7C-8CDB-5A24772E29B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B528A924-3C75-4B7C-8CDB-5A24772E29B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{545D78D6-85D2-4CC2-9A09-6D01504098AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{545D78D6-85D2-4CC2-9A09-6D01504098AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{545D78D6-85D2-4CC2-9A09-6D01504098AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{545D78D6-85D2-4CC2-9A09-6D01504098AA}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8;packages\EnterpriseLibrary.TransientFaultHandling.Data.6.0.1304.1\lib\NET45
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://pelasne.visualstudio.com/defaultcollection
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = SpSatER\\SpSatER.csproj
+		SccProjectName1 = SpSatER
+		SccLocalPath1 = SpSatER
+		SccProjectUniqueName2 = SpSatJobs\\SpSatJobs.csproj
+		SccProjectName2 = SpSatJobs
+		SccLocalPath2 = SpSatJobs
+		SccProjectUniqueName3 = SpSatLanding\\SpSatLanding.csproj
+		SccProjectName3 = SpSatLanding
+		SccLocalPath3 = SpSatLanding
+		SccProjectUniqueName4 = SpSatMultiTier\\SpSatMultiTier.csproj
+		SccProjectName4 = SpSatMultiTier
+		SccLocalPath4 = SpSatMultiTier
+		SccProjectUniqueName5 = SpSatSpOnly\\SpSatSpOnly.csproj
+		SccProjectName5 = SpSatSpOnly
+		SccLocalPath5 = SpSatSpOnly
+		SccProjectUniqueName6 = SpSatUiDemo\\SpSatUiDemo.csproj
+		SccProjectName6 = SpSatUiDemo
+		SccLocalPath6 = SpSatUiDemo
+		SccProjectUniqueName7 = SpSatWeb\\SpSatWeb.csproj
+		SccProjectName7 = SpSatWeb
+		SccLocalPath7 = SpSatWeb
+		SccProjectUniqueName8 = SpSatWebJob\\SpSatWebJob.csproj
+		SccProjectName8 = SpSatWebJob
+		SccLocalPath8 = SpSatWebJob
+	EndGlobalSection
+EndGlobal

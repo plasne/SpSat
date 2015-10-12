@@ -1,0 +1,131 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <title>ADAL-Token</title>
+    <style>
+        #signInButton {
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            text-align: left;
+            color: darkgray;
+            padding-left: 20px;
+            background-image: url(Images/spinner-md.gif);
+            background-repeat: no-repeat;
+            margin-top: -50px;
+            margin-left: -50px;
+            width: 140px;
+            height: 140px;
+            border: none;
+            background-color: white;
+            cursor: pointer;
+        }
+    </style>
+
+    <script type="text/javascript" src="https://code.jquery.com/jquery-1.11.3.min.js"></script>
+    <script type="text/javascript" src="https://secure.aadcdn.microsoftonline-p.com/lib/1.0.0/js/adal.min.js"></script>
+    <script type="text/javascript">
+        $(document).ready(function () {
+            var redirect = "";
+            var querystring = "";
+
+            if (token(window.location.hash) == "") {
+                // Enter Global Config Values & Instantiate ADAL AuthenticationContext
+                window.config = {
+                    tenant: 'pelasne.onmicrosoft.com',
+                    clientId: '93b8da52-0a5a-4c81-ad75-1c461fe9c1ae',
+                    postLogoutRedirectUri: window.location.origin,
+                };
+                // try the cache first.
+                var cachedTokenOject = sessionStorage.getItem('adal_token');
+                if (cachedTokenOject == undefined) {
+                    querystring = location.search.substring(1);
+                    redirect = decodeURIComponent(getParameterByName("SPAppWebUrl")) + decodeURIComponent(getParameterByName('SPRedirectPage'));
+                    sessionStorage.setItem('incoming_qs', querystring);
+                    sessionStorage.setItem('redirect_url', redirect);
+                    // Login
+                    adal_autoSignIn();
+                    return;
+                } else {
+                    // use the Cached Token ... check for expiry.
+                    var cachedToken = JSON.parse(cachedTokenOject);
+                    var now = new Date();
+                    var issued = new Date(cachedToken.issued);
+
+                    var difference = Math.abs(toSeconds(now.timeNow()) - toSeconds(issued.timeNow()));
+                    if (difference > 3300) { // 55 minutes.
+                        // Token is expired.
+                        sessionStorage.removeItem("adal_token");
+                        // Log in
+                        adal_autoSignIn();
+                        return;
+                    }
+
+                    querystring = location.search.substring(1);
+                    redirect = decodeURIComponent(getParameterByName("SPAppWebUrl")) + decodeURIComponent(getParameterByName('SPRedirectPage'));
+                    if (redirect.indexOf("?") != 0)
+                        window.location = redirect + "?adal_token=" + encodeURIComponent(cachedToken.token) + "&" + querystring;
+                    else
+                        window.location = redirect + "&adal_token=" + encodeURIComponent(cachedToken.token) + "&" + querystring;
+                }
+            } else {
+                // use the new token in the hash location provided by adal.js
+                querystring = sessionStorage.getItem('incoming_qs');
+                if (querystring != null && querystring != undefined) querystring = querystring.toString();
+                redirect = sessionStorage.getItem('redirect_url');
+                if (redirect != null && redirect != undefined) redirect = redirect.toString();
+                sessionStorage.setItem('adal_token', JSON.stringify({ 'token': token(window.location.hash), 'issued': new Date() }));
+                if (redirect.indexOf("?") != 0)
+                    window.location = redirect + "?adal_token=" + token(window.location.hash) + "&" + querystring;
+                else
+                    window.location = redirect + "&adal_token=" + token(window.location.hash) + "&" + querystring;
+            }
+
+        });
+
+        function adal_signIn() {
+            var authContext = new AuthenticationContext(config);
+            authContext.login();
+        }
+
+        function adal_autoSignIn() {
+            $("#signInButton").removeAttr("disabled").val('Authenticating');
+            window.setTimeout(function () {
+                var authContext = new AuthenticationContext(config);
+                authContext.login();
+            }, 1500)
+        }
+        function token(view) {
+            return view.substr(view.indexOf('#') + 10).split('&')[0];
+        }
+
+        function getParameterByName(name) {
+            name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+            var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+            results = regex.exec(location.search);
+            return results == null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+        }
+
+        // For the time now
+        Date.prototype.timeNow = function () {
+            return ((this.getHours() < 10) ? "0" : "") + this.getHours() + ":" + ((this.getMinutes() < 10) ? "0" : "") + this.getMinutes() + ":" + ((this.getSeconds() < 10) ? "0" : "") + this.getSeconds();
+        }
+
+        function toSeconds(time_str) {
+            // Extract hours, minutes and seconds
+            var parts = time_str.split(':');
+            // compute  and return total seconds
+            return parts[0] * 3600 + // an hour has 3600 seconds
+            parts[1] * 60 + // a minute has 60 seconds
+            +
+            parts[2]; // seconds
+        }
+
+    </script>
+</head>
+<body>
+    <div>
+        <input type="button" id="signInButton" disabled="disabled" value="" onclick="javascript: adal_signIn();" />
+    </div>
+</body>
+</html>

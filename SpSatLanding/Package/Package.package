@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="abf13dc7-3212-4633-b7c2-ea7b7f392cd0" 
+        solutionId="abf13dc7-3212-4633-b7c2-ea7b7f392cd0" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SpSatLanding"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="fbe716f9-22c6-4f2a-81cf-d608c644655c" />
+  </features>
+</package>

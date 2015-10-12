@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="54bcf323-79bd-4237-a2fa-d621337e508f" 
+        solutionId="54bcf323-79bd-4237-a2fa-d621337e508f" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SpSatMultiTier"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="69de2fd0-422c-4bb1-9060-c7283aae9a74" />
+  </features>
+</package>

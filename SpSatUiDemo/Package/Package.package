@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package dslVersion="1.0.0.0" 
+        Id="020ce9ee-35b8-4f1c-9d12-e878fefc4af1" 
+        solutionId="020ce9ee-35b8-4f1c-9d12-e878fefc4af1" 
+        xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel" 
+        name="SpSatUiDemo"
+        sharePointProductVersion="16.0">
+  <features>
+        <featureReference itemId="199ee8db-9ea5-4c15-b76c-b3484569ef60" />
+  </features>
+</package>
