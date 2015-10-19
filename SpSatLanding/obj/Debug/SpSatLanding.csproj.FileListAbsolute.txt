@@ -3,3 +3,8 @@ C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\bin\Debug\SpSatLanding.
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\obj\Debug\SpSatLanding.dll
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\obj\Debug\SpSatLanding.pdb
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\obj\Debug\SpSatLanding.csprojResolveAssemblyReference.cache
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\bin\Debug\SpSatLanding.dll.config
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\bin\Debug\SpSatLanding.pdb
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\obj\Debug\SpSatLanding.csprojResolveAssemblyReference.cache
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\obj\Debug\SpSatLanding.dll
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatLanding\obj\Debug\SpSatLanding.pdb

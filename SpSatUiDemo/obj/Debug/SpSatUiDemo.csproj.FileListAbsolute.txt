@@ -1,3 +1,6 @@
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatUiDemo\bin\Debug\SpSatUiDemo.pdb
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatUiDemo\obj\Debug\SpSatUiDemo.dll
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatUiDemo\obj\Debug\SpSatUiDemo.pdb
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatUiDemo\bin\Debug\SpSatUiDemo.pdb
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatUiDemo\obj\Debug\SpSatUiDemo.dll
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatUiDemo\obj\Debug\SpSatUiDemo.pdb

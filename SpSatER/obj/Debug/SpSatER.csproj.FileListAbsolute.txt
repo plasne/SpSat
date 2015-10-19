@@ -2,3 +2,7 @@ C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatER\bin\Debug\SpSatER.pdb
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatER\obj\Debug\SpSatER.dll
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatER\obj\Debug\SpSatER.pdb
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatER\bin\Debug\SpSatER.dll.config
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatER\bin\Debug\SpSatER.dll.config
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatER\bin\Debug\SpSatER.pdb
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatER\obj\Debug\SpSatER.dll
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatER\obj\Debug\SpSatER.pdb

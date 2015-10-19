@@ -1,1 +1,1 @@
-C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\bin\Debug\SpSatMultiTier.debugapp
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\bin\Debug\SpSatMultiTier.debugapp

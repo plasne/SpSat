@@ -161,6 +161,117 @@
             asynchronous request failed.
             </summary>
         </member>
+        <member name="T:Microsoft.Azure.ResourceBase">
+            <summary>
+            Resource information.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceBase.#ctor">
+            <summary>
+            Initializes a new instance of the ResourceBase class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceBase.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the ResourceBase class with required
+            arguments.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceBase.Location">
+            <summary>
+            Required. Gets or sets the location of the resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceBase.Tags">
+            <summary>
+            Optional. Gets or sets the tags attached to the resource.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.ResourceBaseExtended">
+            <summary>
+            Resource information with extended details.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceBaseExtended.#ctor">
+            <summary>
+            Initializes a new instance of the ResourceBaseExtended class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceBaseExtended.#ctor(System.String)">
+            <summary>
+            Initializes a new instance of the ResourceBaseExtended class with
+            required arguments.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceBaseExtended.Id">
+            <summary>
+            Optional. Gets or sets the ID of the resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceBaseExtended.Name">
+            <summary>
+            Optional. Gets or sets the name of the resource.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceBaseExtended.Type">
+            <summary>
+            Optional. Gets or sets the type of the resource.
+            </summary>
+        </member>
+        <member name="T:Microsoft.Azure.ResourceIdentity">
+            <summary>
+            Resource identity.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceIdentity.#ctor">
+            <summary>
+            Initializes a new instance of the ResourceIdentity class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceIdentity.#ctor(System.String,System.String,System.String)">
+            <summary>
+            Initializes a new instance of the ResourceIdentity class.
+            </summary>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceIdentity.GetProviderFromResourceType(System.String)">
+            <summary>
+            Returns provider string from resource type.
+            </summary>
+            <param name="resourceType">Resource type.</param>
+            <returns>Provider</returns>
+        </member>
+        <member name="M:Microsoft.Azure.ResourceIdentity.GetTypeFromResourceType(System.String)">
+            <summary>
+            Returns type string from resource type.
+            </summary>
+            <param name="resourceType">Resource type.</param>
+            <returns>Type</returns>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceIdentity.ParentResourcePath">
+            <summary>
+            Optional. Gets or sets parent resource path (optional).
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceIdentity.ResourceName">
+            <summary>
+            Required. Gets or sets resource name.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceIdentity.ResourceProviderApiVersion">
+            <summary>
+            Required. Gets or sets API version of the resource provider.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceIdentity.ResourceProviderNamespace">
+            <summary>
+            Required. Gets or sets namespace of the resource provider.
+            </summary>
+        </member>
+        <member name="P:Microsoft.Azure.ResourceIdentity.ResourceType">
+            <summary>
+            Required. Gets or sets resource type.
+            </summary>
+        </member>
         <member name="T:Microsoft.Azure.Common.OData.FilterParameterAttribute">
             <summary>
             Parameter attribute used with OData filters.

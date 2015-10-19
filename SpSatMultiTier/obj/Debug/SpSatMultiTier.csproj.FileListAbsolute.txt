@@ -2,3 +2,7 @@ C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\bin\Debug\SpSatMultiT
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\obj\Debug\SpSatMultiTier.dll
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\obj\Debug\SpSatMultiTier.pdb
 C:\Users\Peter\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\obj\Debug\SpSatMultiTier.csprojResolveAssemblyReference.cache
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\bin\Debug\SpSatMultiTier.pdb
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\obj\Debug\SpSatMultiTier.csprojResolveAssemblyReference.cache
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\obj\Debug\SpSatMultiTier.dll
+C:\Users\pelasne\Dropbox\Microsoft\Apps\SpSat\SpSatMultiTier\obj\Debug\SpSatMultiTier.pdb
