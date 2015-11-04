@@ -2,6 +2,7 @@
 using Microsoft.WindowsAzure.Storage.Queue;
 using System;
 using System.Collections.Generic;
+using System.Configuration;
 using System.IO;
 using System.Linq;
 using System.Runtime.Serialization;
@@ -23,7 +24,8 @@ namespace SpSatJobs
         {
 
             // connect to or create the queue
-            CloudStorageAccount account = CloudStorageAccount.Parse("DefaultEndpointsProtocol=https;AccountName=pelasnec0;AccountKey=OaT8WpZ1wbsgk8DIb4CK8YSZuMkOp/BJgByCDEEsDT8OIbibTiZQTdrltiMBbBM2pG1kkwyNggT7zVQ7Sxl5ig==");
+            string connstring = ConfigurationManager.ConnectionStrings["Storage"].ConnectionString;
+            CloudStorageAccount account = CloudStorageAccount.Parse(connstring);
             CloudQueueClient client = account.CreateCloudQueueClient();
             CloudQueue queue = client.GetQueueReference("jobs");
             queue.CreateIfNotExists();
