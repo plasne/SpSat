@@ -33,7 +33,6 @@ namespace SpSatWeb
                 ReliableSQL sql = new ReliableSQL();
                 sql.Connection.ExecuteAction(() =>
                 {
-                    //using (ReliableSqlConnection connection = new ReliableSqlConnection("Data Source=plasne-sql01.database.windows.net; Initial Catalog=plasne-db01; Authentication=Active Directory Password; UID=plasne@plasne.com; PWD=vampyr00!;"))
                     using (ReliableSqlConnection connection = new ReliableSqlConnection("Data Source=plasne-sql01.database.windows.net; Initial Catalog=plasne-db01; Authentication=Active Directory Integrated;"))
                     {
                         connection.Open();
